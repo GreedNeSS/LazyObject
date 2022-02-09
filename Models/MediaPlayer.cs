@@ -19,7 +19,7 @@ namespace LazyObject.Models
             allSongs = new Lazy<AllTracks>(() =>
              {
                  Console.WriteLine("Creating AllTracks object!");
-                 return new AllTracks(10000);
+                 return new AllTracks(maxCountSongs);
              });
         }
 

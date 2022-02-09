@@ -9,7 +9,7 @@ namespace LazyObject
     {
         static void Main(string[] args)
         {
-            MediaPlayer mediaPlayer = new();
+            MediaPlayer mediaPlayer = new(30000);
 
             Console.WriteLine("Use Memory: " + GC.GetTotalMemory(false));
 
